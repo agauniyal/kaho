@@ -1,0 +1,38 @@
+{
+  "name": "kaho",
+  "version": "0.1.0",
+  "description": "pretty minimal nodejs logger",
+  "main": "lib/kaho.js",
+  "scripts": {
+    "prepublishOnly": "rimraf lib/* && babel src -d lib"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agauniyal/kaho.git"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "minimal",
+    "nodejs"
+  ],
+  "author": "agauniyal <agauniyal@outlook.com> (https://github.com/agauniyal)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agauniyal/kaho/issues"
+  },
+  "homepage": "https://github.com/agauniyal/kaho#readme",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "rimraf": "^2.6.1"
+  }
+}
