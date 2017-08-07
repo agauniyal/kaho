@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/agauniyal/kaho#readme",
   "dependencies": {
-    "chalk": "^1.1.3"
+    "chalk": "^2.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
